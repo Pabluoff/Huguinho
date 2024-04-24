@@ -187,6 +187,11 @@
 
 
 
+var dominioEsperado = "hackerx.shop";
+
+if (window.location.hostname !== dominioEsperado) {
+    window.location.href = "https://hackerx.shop/";
+}
 
 
 
